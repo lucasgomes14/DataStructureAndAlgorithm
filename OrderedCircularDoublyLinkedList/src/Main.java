@@ -1,4 +1,4 @@
-import OrderedDoublLinkedList.OrderedDoublLinkedList;
+import OrderedCircularDoublyLinkedList.OrderedDoublLinkedList;
 import Nodo.Nodo;
 
 public class Main {

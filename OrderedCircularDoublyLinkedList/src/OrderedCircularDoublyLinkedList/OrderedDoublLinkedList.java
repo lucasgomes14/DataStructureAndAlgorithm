@@ -1,4 +1,4 @@
-package OrderedDoublLinkedList;
+package OrderedCircularDoublyLinkedList;
 
 import Nodo.Nodo;
 
@@ -51,7 +51,7 @@ public class OrderedDoublLinkedList {
         length++;
     }
 
-    public Nodo sortPosition(int value) {
+    private Nodo sortPosition(int value) {
         Nodo position = head.getNext();
 
         for(int i = 0; i < length; i++) {
